@@ -13,7 +13,7 @@ int main()
     }
     global_sum = nums[0];
     sum = nums[0];
-    for (auto i = nums.begin(); i != nums.end(); i++)
+    for (auto i = nums.begin()+1; i != nums.end(); i++)
     {
         sum = max(sum + *i, *i);
         global_sum = max(global_sum, sum);
