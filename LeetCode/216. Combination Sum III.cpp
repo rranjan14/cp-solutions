@@ -41,8 +41,6 @@
     1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45
     ​​​​​​​There are no other valid combinations.
 */
-#include <bits/stdc++.h>
-using namespace std;
 class Solution
 {
 public:
